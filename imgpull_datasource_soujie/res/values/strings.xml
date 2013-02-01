@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">银价通</string>
+    <string name="button_text_pull_img">拉取图片</string>
+    <string name="button_text_pull_price">拉取价格</string>
+    <string name="service_have_not_started">服务未就绪</string>
+    <string name="service_has_started">服务启动</string>
+    <string name="service_has_stopped">服务停止</string>
+    <string name="unknown">未知</string>
+    <string name="save_successful">保存成功</string>
+    <string name="save_failed">保存失败</string>
+    <string name="file_save_extension">.png</string>
+    <string name="Ensure">确定</string>
+    <string name="bank_buy">当前可卖价</string>
+    <string name="price_up">涨到</string>
+    <string name="price_down">跌到</string>
+    <string name="pulling_price">正在拉取价格</string>
+    <string name="time">时间：</string>
+    <string name="start_service">开启服务</string>
+    <string name="stop_service">关闭服务</string>
+    <string name="imge_pull_progress">走势图拉取进度</string>
+    <string name="latest_price">行情</string>
+    <string name="pattern_analyse">技术分析</string>
+    <string name="pattern_period">分析周期：</string>
+    <string name="max_middle">最高</string>
+    <string name="min_middle">最低</string>
+    <string name="update_time">时间</string>
+    <string name="menu_exit">退出</string>
+    <string name="menu_volume">声音</string>
+    <string name="menu_vibrate">震动</string>
+    <string name="menu_tip_enable_volume">价格播报已开启</string>
+    <string name="menu_tip_disable_volume">价格播报已关闭</string>
+    <string name="menu_tip_price_vibrate_enable">涨跌震动已开启</string>
+    <string name="menu_tip_price_vibrate_disable">涨跌震动已关闭</string>
+    <string name="crash_notification_title">提示</string>
+    <string name="crash_notification_content">系统异常退出</string>
+    <string name="pattern_analyse_less_green_three_soldier">空头绿三兵</string>
+    <string name="pattern_analyse_more_red_three_soldier">多头红三兵</string>
+    <string name="pattern_analyse_more_red_five_soldier">多头红五兵</string>
+    <string name="pattern_analyse_less_green_five_soldier">空头绿五兵</string>
+    <string name="pattern_analyse_increase_red_three_soldier">递增红三兵</string>
+    <string name="pattern_analyse_decrease_green_three_soldier">递减绿三兵</string>
+    <string name="tab_host_title_price">价格</string>
+    <string name="tab_host_title_pic">走势</string>
+    <string name="tab_host_title_setting">设置</string>
+    <string name="setting_seek_time_interval">更新间隔：</string>
+    <string name="setting_seek_time_unit">秒</string>
+    <string name="price_pull_task_create_task">创建拉取任务，Url：</string>
+
+</resources>

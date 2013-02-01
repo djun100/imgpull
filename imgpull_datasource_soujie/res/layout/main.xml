@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/home_folder_read_bkg"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button_pull_price"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_style"
+                android:text="@string/button_text_pull_price" />
+
+            <TextView
+                android:id="@+id/TextView_price_info"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="@drawable/black" />
+
+            <TextView
+                android:id="@+id/TextView_price_tick"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="@drawable/black" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/view2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/home_folder_read_bkg"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button_pull_img"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/button_style"
+                android:text="@string/button_text_pull_img" />
+
+            <TextView
+                android:id="@+id/myTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@drawable/black" />
+
+            <ImageView
+                android:id="@+id/myImageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/myImageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/myImageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/white" />
+
+            <ImageView
+                android:id="@+id/myImageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/white" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/view3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/transparent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/progress"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <SeekBar
+            android:id="@+id/seek"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pattern_group_three"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/pattern_analyses_three_positive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pattern_analyse_more_red_three_soldier" />
+
+            <CheckBox
+                android:id="@+id/pattern_analyses_three_negtive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pattern_analyse_less_green_three_soldier" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pattern_group_five"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/pattern_analyses_five_positive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pattern_analyse_more_red_five_soldier" />
+
+            <CheckBox
+                android:id="@+id/pattern_analyses_five_negtive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pattern_analyse_less_green_five_soldier" />
+        </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pattern_group_step"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/pattern_analyses_step_increase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pattern_analyse_increase_red_three_soldier" />
+
+            <CheckBox
+                android:id="@+id/pattern_analyses_step_decrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pattern_analyse_decrease_green_three_soldier" />
+        </LinearLayout>
+    </LinearLayout>
+
+</TabHost>

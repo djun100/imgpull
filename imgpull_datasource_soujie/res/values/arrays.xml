@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string-array name="price_urls">
+        <item>http://image.cngold.org/chart/silver/zhisilver.gif</item>
+        <item>http://image.cngold.org/chart/silver/24hours_silver_rmb.gif</item>
+        <item>http://image.cngold.org/chart/silver/24hours_silver_usd.gif</item>
+        <item>http://image.cngold.org/chart/silver/newyork_silver.gif</item>
+    </string-array>
+    <string-array name="price_titles">
+        <item>纸白银</item>
+        <item>人民币白银</item>
+        <item>美元白银</item>
+        <item>纽约白银</item>
+    </string-array>
+
+</resources>
